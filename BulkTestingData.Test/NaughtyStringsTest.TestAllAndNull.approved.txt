@@ -1,0 +1,7 @@
+﻿length
+
+ => True
+ => True
+undefined => False
+undef => False
+null => False
